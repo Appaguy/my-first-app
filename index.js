@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("My first app is live on Railway!");
+  res.send("Hello, this is my app!");
 });
 
 const port = process.env.PORT || 3000;
